@@ -16,10 +16,10 @@ namespace TennisScore
                 puntajePartido.Deuce = true;
                 puntajePartido.VentajaJ1 = false;
             }
-            else if (puntajePartido.Ventajaj2 && jugador1)
+            else if (puntajePartido.VentajaJ2 && jugador1)
             {
                 puntajePartido.Deuce = true;
-                puntajePartido.Ventajaj2 = false;
+                puntajePartido.VentajaJ2 = false;
             }
             else
             {
@@ -31,7 +31,7 @@ namespace TennisScore
                     }
                     else
                     {
-                        puntajePartido.Ventajaj2 = true;
+                        puntajePartido.VentajaJ2 = true;
                     }
 
                     puntajePartido.Deuce = false;
@@ -39,7 +39,7 @@ namespace TennisScore
                 else
                 {
                     puntajePartido.VentajaJ1 = false;
-                    puntajePartido.Ventajaj2 = false;
+                    puntajePartido.VentajaJ2 = false;
 
                     if (jugador1)
                     {
@@ -91,7 +91,7 @@ namespace TennisScore
                 }
                 else
                 {
-                    puntajePartido.Ventajaj2 = true;
+                    puntajePartido.VentajaJ2 = true;
                     var puntajeAce = puntajePartido.ACEJ2;
                     puntajeAce++;
                     puntajePartido.ACEJ2 = puntajeAce;
@@ -125,7 +125,7 @@ namespace TennisScore
             {
                 if (p)
                 {
-                    puntajePartido.Ventajaj2 = true;
+                    puntajePartido.VentajaJ2 = true;
                     var puntajefalta = puntajePartido.DobleFaltaJ2;
                     puntajefalta++;
                     puntajePartido.DobleFaltaJ2 = puntajefalta;

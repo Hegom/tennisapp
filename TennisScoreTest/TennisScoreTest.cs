@@ -130,7 +130,7 @@ namespace TennisScoreTests
             logica.AumentarPunto(ref puntaje, false);
             logica.AumentarPunto(ref puntaje, false);
 
-            Assert.AreEqual(true, puntaje.Ventajaj2);
+            Assert.AreEqual(true, puntaje.VentajaJ2);
         }
 
         [TestMethod]

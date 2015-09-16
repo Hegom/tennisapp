@@ -15,7 +15,7 @@ namespace TennisScore.Modelo
         public int DobleFaltaJ1 { get; set; }
         public int DobleFaltaJ2 { get; set; }
         public bool VentajaJ1 { get; set; }
-        public bool Ventajaj2 { get; set; }
+        public bool VentajaJ2 { get; set; }
         public int Set { get; set; }
         public bool Deuce { get; set; }
 

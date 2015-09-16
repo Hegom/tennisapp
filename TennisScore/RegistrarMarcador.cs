@@ -102,7 +102,7 @@ namespace TennisScore
                     lblPuntajeJugador1.Text = lblPuntajeJugador1.Text + " AD";
                 }
 
-                if (PuntajePartido_.Ventajaj2)
+                if (PuntajePartido_.VentajaJ2)
                 {
                     lblPuntajeJugador2.Text = lblPuntajeJugador2.Text + " AD";
                 }
